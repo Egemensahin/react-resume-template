@@ -2,10 +2,10 @@
   "main": {
     "name": "Egemen Sahin",
     "occupation": "Junior studying Computer Science & Math",
-    "description": "I am int",
+    "description": "I ",
     "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "bio": "I am a Math and Computer Science student at Dartmouth, interested in Data Science, Full Stack Development and Computer Science. I also have a passion for music production and art.",
+    "contactmessage": "Feel free to get in contact for more information.",
     "email": "egemen.sahin.23@dartmouth.edu",
     "phone": "603-286-0686",
     "address": {
@@ -30,7 +30,6 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
         "school": "Dartmouth College",
@@ -53,6 +52,7 @@
         "description": "Graded students' homework in MATH20 (Probability), MATH22 & MATH24 (Linear Algebra), MATH23 (Differential Equations)"
       }
     ],
+    "skillmessage": "Proficent in:",
     "skills": [
       {
         "name": "Git"
@@ -70,47 +70,48 @@
   },
   "portfolio": {
     "projects": [
+
+      {
+        "title": "Stratz.co",
+        "category": "Video Game Strategy Sharing Platform that I built using Chakra-UI, React, Next.js",
+        "image": "website.jpg",
+        "url": "http://stratz.co"
+      },
+      {
+        "title": "Dartmouth Student Producers Collective",
+        "category": "Dartmouth College Club I founded to create a platform for music producer undergraduates",
+        "image": "club.jpg",
+        "url": "https://engage.dartmouth.edu/organization/dspc"
+      },
       {
         "title": "Carbon Nanotube Coordinate Prediction with Deep Learning",
         "category": "Publication",
-        "image": "",
+        "image": "publication.jpg",
         "url": "https://ieeexplore.ieee.org/document/8821653"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Book Genre Classification Based on Titles with Comparative Machine Learning Algorithms",
+        "category": "Publication",
+        "image": "publication.jpg",
+        "url": "https://ieeexplore.ieee.org/document/8821643"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Abalone Life Phase Classification with Deep Learning",
+        "category": "Publication",
+        "image": "publication.jpg",
+        "url": "https://ieeexplore.ieee.org/document/8703232"
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Finding trends in recently played artists",
+        "category": "Data Analysis Project using data from Spotify's API using Python, Pandas, Tableau",
+        "image": "project.jpg",
+        "url": "https://github.com/EgemennSahin/Association-Rule-for-Recently-Played-Artist-Trends"
       },
       {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
+        "title": "IJCNN 2019 Challenge Up 2nd place",
+        "category": "Developed a body movement classification algorithm using ANNs by efficiently pre-processing limited sensor data",
+        "image": "project.jpg",
+        "url": "https://sites.google.com/up.edu.mx/challenge-up-2019/"
       }
     ]
   }
